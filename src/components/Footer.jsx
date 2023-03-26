@@ -1,18 +1,18 @@
 import { LinkedIn,GitHub,WhatsApp } from "@mui/icons-material";
+import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 const Footer=()=>{
     return (
       <footer id="footer">
         <section className="section section__boost">
           <div className="container">
-            <h2>Boost your links today</h2>
-            <a href="#boostLink" className="btn btn-primary">
-              Get Started
+            <a href="#start" className="btn btn-primary">
+              Go back <ArrowUpwardIcon/>
             </a>
           </div>
         </section>
         <section className="section section__mainFooter">
           <div className="container">
-            <a href="#home" aria-label="Company Logo" className="logo">
+            <a href="" aria-label="Company Logo" className="logo">
               <p
                 className="p-footer"
                

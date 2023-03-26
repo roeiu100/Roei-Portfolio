@@ -5,7 +5,7 @@ const Header=()=>{
     const [navOpen, setNavOpen] = useState(false)
     return (
       <header>
-        <nav>
+        <nav id='start'>
           <div className="nav__group">
            
             <div className="logo__menu">
