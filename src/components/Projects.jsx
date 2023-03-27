@@ -11,7 +11,7 @@ const Projects = ({projectVid,title,description,linktogit,linktoweb}) => {
                 <div className="relative">
                  
                     <div className="border-4 border-cyan-500">
-                      <img className="w-full" src={projectVid}/> </div>
+                      <img className="w-full" alt="project" src={projectVid}/> </div>
                 </div>
             </div>
             <div className="w-full md:w-1/2 px-10">
