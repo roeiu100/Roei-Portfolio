@@ -34,7 +34,7 @@ const Footer=()=>{
                   className=" shadow-xl	 font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300"
                   type="button"
                 >
-                  <a target="_blank" className="hover:text-cyan-400" href="https://wa.me/+972549499248">
+                  <a target="_blank" rel="noreferrer" className="hover:text-cyan-400" href="https://wa.me/+972549499248">
                     <WhatsApp />
                   </a>
                 </button>
@@ -43,7 +43,7 @@ const Footer=()=>{
                   className=" shadow-xl	 font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300"
                   type="button"
                 >
-                  <a target="_blank" className="hover:text-cyan-400" href="https://github.com/roeiu100">
+                  <a target="_blank" rel="noreferrer" className="hover:text-cyan-400" href="https://github.com/roeiu100">
                     <GitHub />
                   </a>
                 </button>
@@ -51,7 +51,7 @@ const Footer=()=>{
                   className=" shadow-xl	 font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300"
                   type="button"
                 >
-                  <a target="_blank" className="hover:text-cyan-400" href="https://www.linkedin.com/in/roeishalom/">
+                  <a target="_blank" rel="noreferrer" className="hover:text-cyan-400" href="https://www.linkedin.com/in/roeishalom/">
                     <LinkedIn />
                   </a>
                 </button>

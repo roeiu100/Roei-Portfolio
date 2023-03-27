@@ -22,11 +22,11 @@ const Projects = ({projectVid,title,description,linktogit,linktoweb}) => {
                 </div>
                 <div>
                     <div className="inline-block align-bottom mr-5 ">
-                    <a target="_blank" href={linktogit} className="bg-black opacity-75 hover:opacity-100 text-white
+                    <a target="_blank" rel="noreferrer" href={linktogit} className="bg-black opacity-75 hover:opacity-100 text-white
                          hover:text-white rounded-full px-10 py-2 font-semibold btn"><i className="mdi mdi-cart -ml-2 mr-2"></i><GitHubIcon/> Git repository</a>
                     </div>
                     <div className="inline-block align-bottom md:mt-10">
-                        <a target="_blank" href={linktoweb} className="bg-cyan-300 opacity-75 hover:opacity-100 text-white
+                        <a target="_blank" rel="noreferrer" href={linktoweb} className="bg-cyan-300 opacity-75 hover:opacity-100 text-white
                         rounded-full px-10 py-2 font-semibold btn btn-primary" ><i className="mdi mdi-cart -ml-2 mr-2"></i><PreviewIcon/> Preview</a>
                     </div>
                 </div>
