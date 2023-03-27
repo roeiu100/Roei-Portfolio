@@ -1,4 +1,4 @@
-import menuIcon from '../images/icon-hamburger.svg'
+import MenuIcon from '@mui/icons-material/Menu';
 import { useState } from 'react'
 import { IoMdTennisball } from "react-icons/io";
 const Header=()=>{
@@ -18,7 +18,7 @@ const Header=()=>{
                     setNavOpen(!navOpen);
                   }}
                 >
-                  <img src={menuIcon} alt="" />
+                  <img src={MenuIcon} alt="" />
                 </button>
               </div>
             </div>
