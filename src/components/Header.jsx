@@ -6,7 +6,7 @@ const Header=()=>{
     return (
       <header>
         <nav id='start'>
-          <div className="nav__group">
+          <div className="nav__group z-10">
            
             <div className="logo__menu">
               <div className="nav-menu__wrapper">

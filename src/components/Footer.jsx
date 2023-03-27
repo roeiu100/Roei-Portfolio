@@ -12,14 +12,14 @@ const Footer=()=>{
         </section>
         <section className="section section__mainFooter">
           <div className="container">
-            <a href="" aria-label="Company Logo" className="logo">
+            <div href="" aria-label="Company Logo" className="logo">
               <p
                 className="p-footer"
                
               >
                 Roei Shalom
               </p>
-            </a>
+            </div>
            
 
             <div className="">
