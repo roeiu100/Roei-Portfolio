@@ -8,6 +8,7 @@ import Lottie  from "lottie-react"
 import coding from "../images/coding.json"
 import Projects from "./Projects"
 import CodeIcon from '@mui/icons-material/Code';
+import ticTacToeImage from "../images/tic-tac-toe.png"
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     AOS.init();
@@ -57,7 +58,7 @@ const Home=()=>{
           />
           </section>
           <section className="section">
-          <Projects projectVid="" title="Tic-Tac-Toe" 
+          <Projects projectVid={ticTacToeImage} title="Tic-Tac-Toe" 
           description="Welcome to Tic Tac Toe, the classic game of X's and O's! In this version of the game, you can play both against a computer opponent and with a friend. The twist? The computer is unbeatable, so you'll have to bring your A-game to stand a chance."
           linktogit="https://github.com/roeiu100/Tic-tac-toe"
           linktoweb="https://master--reliable-liger-252ef0.netlify.app/"
