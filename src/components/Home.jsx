@@ -9,6 +9,8 @@ import coding from "../images/coding.json"
 import Projects from "./Projects"
 import CodeIcon from '@mui/icons-material/Code';
 import ticTacToeImage from "../images/tic-tac-toe.png"
+import snowBoundImage from "../images/snowbound.png"
+import workoutImage from "../images/workout.png"
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     AOS.init();
@@ -50,7 +52,7 @@ const Home=()=>{
           <h1 className="text-4xl">My projects</h1>
           </section>
           <section className="section" >
-          <Projects projectVid="" title="SnowBound" 
+          <Projects projectVid={snowBoundImage} title="SnowBound" 
           description="SnowBound is a comprehensive online resource for skiers,
           providing information on ski resorts around the world, lift ticket prices, ski conditions, reviews and more."
           linktogit="https://github.com/o6mer/snowbound"
@@ -65,7 +67,7 @@ const Home=()=>{
           />
           </section>
           <section className="section">
-          <Projects projectVid="" title="Workout Planner" 
+          <Projects projectVid={workoutImage} title="Workout Planner" 
           description="The workout planner is a tool that helps you organize and plan your fitness routine. It allows you to set goals, track progress, and schedule workouts. With a workout planner, you can ensure that you are getting the most out of your exercise routine and staying on track to achieve your fitness goals."
           linktogit="https://github.com/OrrFarber/Group-Project"
           linktoweb=""

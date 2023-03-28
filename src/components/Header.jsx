@@ -17,7 +17,7 @@ const Header=()=>{
                     setNavOpen(!navOpen);
                   }}
                 >
-                  <img src={MenuIcon} alt="" />
+                  <MenuIcon/>
                 </button>
               </div>
             </div>
