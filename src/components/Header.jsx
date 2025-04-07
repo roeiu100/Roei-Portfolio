@@ -32,9 +32,10 @@ const Header=()=>{
                   </a>
                 </li>
                 <li>
-                  <a target="_blank" rel="noreferrer"
-                        href="https://drive.google.com/file/d/1rMBRWvDDaigipz6SDVbQ15_r4Yh-w1sH/view?usp=drive_link"
-                      Resume
+                    <a target="_blank" rel="noreferrer" 
+                        href="https://drive.google.com/file/d/1rMBRWvDDaigipz6SDVbQ15_r4Yh-w1sH/view?usp=drive_link" 
+                        className="nav-link">
+                     Resume
                   </a>
                 </li>
                 <li>
